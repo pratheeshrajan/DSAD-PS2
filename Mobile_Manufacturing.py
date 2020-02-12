@@ -48,6 +48,7 @@ class Mobile_Manufacturing:
 			assemblingTime = assemblingTime + sortedItemList[i]['assembling_time'];
 			
 		self.idleTime = idleTime;
+		#Total time will be the sum of idle time + assembling time
 		self.totalTime = idleTime + assemblingTime;
 		
 	# Writing to the output file
